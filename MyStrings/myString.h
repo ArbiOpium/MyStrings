@@ -27,6 +27,8 @@ public:
 
 	MyString& operator+=(const char* appendStr);
 
+        void Save(char* filename);
+
 	void Print();
 	void Input();
 
